@@ -1,0 +1,24 @@
+{
+  "name": "challenge10",
+  "version": "1.0.0",
+  "description": "Programar el Game of Life.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lroperod/202301-w2chwe-luis-ropero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lroperod/202301-w2chwe-luis-ropero/issues"
+  },
+  "homepage": "https://github.com/lroperod/202301-w2chwe-luis-ropero#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
