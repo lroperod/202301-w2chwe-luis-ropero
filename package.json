@@ -1,0 +1,35 @@
+{
+  "name": "challenge10",
+  "version": "1.0.0",
+  "description": "Programar el Game of Life.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lroperod/202301-w2chwe-luis-ropero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lroperod/202301-w2chwe-luis-ropero/issues"
+  },
+  "homepage": "https://github.com/lroperod/202301-w2chwe-luis-ropero#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "husky": "^8.0.0",
+    "jest": "^29.4.1"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+}
